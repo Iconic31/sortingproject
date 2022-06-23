@@ -1,0 +1,42 @@
+:root{
+    --primary-color :rgb(2, 2, 66) ;
+}
+
+body{
+    /* background:linear-gradient(
+        340deg,
+        rgb(2, 2, 69),
+        rgb(5, 5, 130),
+        rgb(185, 219, 232)
+    ) */
+    background: url("./img/bg2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    width: 1100px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.secContainers{
+    width: 800px;
+    /* background-color: gray; */
+}
+
+.Flexs{
+    display: flex;
+    justify-content: center;
+}
+
+.cardBoxs{
+    background-color: rgba(8, 145, 169, 0.8);
+    color: #fff;
+}
+
+.dividers{
+    border-bottom: 2px solid var(--primary-color) ;
+    margin:7px 0;
+}
